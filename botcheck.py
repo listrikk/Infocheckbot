@@ -92,7 +92,8 @@ def open_check(message):
         bot.register_next_step_handler(message, open_check)
         return
     bot.send_message(message.chat.id, "🔎Проверяю информацию...🔍")
-    result = check_info(message.text)
+    lower_text = message.text.lower()
+    result = check_info(lower_text)
     bot.send_message(message.chat.id, result)
 
 bot.polling()
