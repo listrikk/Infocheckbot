@@ -31,7 +31,7 @@ TELEGRAM_TOKEN = 'ваш_токен_бота'
 OPENROUTER_API_KEY = 'ваш_API_ключ'
 ```
 
-4. Запустите бота:
+4. Запустите бота: 
 
 ```bash
 python botcheck.py
