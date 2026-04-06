@@ -1,5 +1,5 @@
 import telebot
-import sqlite3
+import sqlite3 
 import requests
 
 TELEGRAM_TOKEN = ''
